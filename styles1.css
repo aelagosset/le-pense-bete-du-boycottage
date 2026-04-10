@@ -40,14 +40,14 @@
 
 .title {
     font-size: 32px; /* ↓ réduit */
-    font-family: "Riposte";
+    font-family: "Riposte", sans-serif;
     font-weight: bold;
     text-align: center;
 }
 
 .subtitle {
     font-size: 15px;
-    font-family: "Riposte";
+    font-family: "Riposte", sans-serif;
     text-align: center;
 }
 
@@ -62,7 +62,7 @@ h1 {
     font-size: 25pt;
     line-height: 1.1;
     margin: 0;
-    font-family: "Riposte";
+    font-family: "Riposte", sans-serif;
     text-align: center;
 
 }
@@ -78,7 +78,7 @@ h1 {
 position: absolute;
 bottom: 0;
 
-font-family: "Riposte";
+font-family: "Riposte", sans-serif;
 font-weight: 400;
 
 font-size: 6pt;
@@ -88,7 +88,7 @@ line-height: 6pt;
 
 .note-definition {
 
-  font-family: "Riposte";
+  font-family: "Riposte", sans-serif;
   margin-top: 2mm;     /* espace entre les deux paragraphes */
   text-indent: 4mm;    /* alinéa première ligne seulement */
   margin-bottom: 0;
@@ -98,7 +98,7 @@ line-height: 6pt;
 
 .textecourant {
 
-    font-family: "Riposte";
+    font-family: "Riposte", sans-serif;
     font-size: 8pt;
     line-height: 9,6pt;
     margin: 0;
@@ -109,7 +109,7 @@ line-height: 6pt;
 
 .textecourantalinéa {
 
-    font-family: "Riposte";
+    font-family: "Riposte", sans-serif;
     font-size: 8pt;
     letter-spacing: 0.1px;
     line-height: 9,6pt;
@@ -120,69 +120,69 @@ line-height: 6pt;
 }
 
 .suptextecourant {
-    font-family: "Riposte";
+    font-family: "Riposte", sans-serif;
     font-size: 4pt;
 }
 
 
 .supsup {
-    font-family: "Riposte";
+    font-family: "Riposte", sans-serif;
     font-size: 4pt;
 }
 
 
 
 .main1 {
-    font-family: "Director";
+    font-family: "Director", sans-serif;
     font-size: 16pt;
     line-height: 8pt;
     margin-left: 0px;
 }
 
 .main2 {
-    font-family: "Director";
+    font-family: "Director", sans-serif;
     font-size: 16pt;
     line-height: 8pt;
     margin-left: 4px;
 }
 
 .main3 {
-    font-family: "Director";
+    font-family: "Director", sans-serif;
     font-size: 16pt;
     line-height: 8pt;
     margin-left: 8px;
 }
 
 .main4 {
-    font-family: "Director";
+    font-family: "Director", sans-serif;
     font-size: 16pt;
     line-height: 8pt;
     margin-left: 12px;
 }
 
 .main5 {
-    font-family: "Director";
+    font-family: "Director", sans-serif;
     font-size: 16pt;
     line-height: 8pt;
     margin-left: 16px;
 }
 
 .main6 {
-    font-family: "Director";
+    font-family: "Director", sans-serif;
     font-size: 16pt;
     line-height: 8pt;
     margin-left: 20px;
 }
 
 .main7 {
-    font-family: "Director";
+    font-family: "Director", sans-serif;
     font-size: 16pt;
     line-height: 8pt;
     margin-left: 24px;
 }
 
 .main8 {
-    font-family: "Director";
+    font-family: "Director", sans-serif;
     font-size: 16pt;
     line-height: 8pt;
     margin-left: 28px;
