@@ -18,6 +18,15 @@
     font-weight: 100 900;
 }
 
+
+body { 
+    margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+}  
+
 .btn-download {
     display: inline-block;
     padding: 20px 30px; /* ↓ plus petit */
@@ -214,12 +223,14 @@ line-height: 6pt;
 }
 
 .logo {
-  width: 50mm;
+   width: 50mm;
   height: auto;
+  max-width: 100%;
 }
 
 .petitlogo {
     width: 20mm;
     height: auto;
+    max-width: 100%;
   
 }
