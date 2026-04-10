@@ -42,7 +42,7 @@
 }
 
 .title {
-    font-size: 32px; /* ↓ réduit */
+    font-size: 30px; /* ↓ réduit */
     font-family: "Riposte", sans-serif;
     font-weight: bold;
     text-align: center;
@@ -197,9 +197,10 @@ line-height: 6pt;
 
 .center {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 42.5vh;
+  justify-content: center; /* horizontal */
+  align-items: center;     /* vertical */
+  height: 60vh;
+  margin: 0;
 }
 
 .logo {
