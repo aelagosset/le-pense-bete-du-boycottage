@@ -9,10 +9,17 @@
 @font-face {
     font-family: "Riposte";
     src: url("fonts/Riposte-Regular.woff2") format("woff2");
-    font-family: "Director";
-    src: url("fonts/Director-Variable.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
 }
 
+
+@font-face {
+    font-family: "Director";
+    src: url("fonts/Director-Variable.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
 
 
 .btn-download {
