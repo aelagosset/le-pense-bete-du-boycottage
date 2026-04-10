@@ -1,0 +1,210 @@
+@page {
+  size: 74mm 105mm;
+  margin-top: 5mm;
+  margin-right: 5mm;
+  margin-bottom: 5mm;
+  margin-left: 5mm;
+}
+
+@font-face {
+    font-family: "Riposte";
+    src: url("fonts/Riposte-Regular.woff2") format("woff2");
+    font-family: "Director";
+    src: url("fonts/Director-Variable.woff2") format("woff2");
+}
+
+
+
+.btn-download {
+    display: inline-block;
+    padding: 20px 30px; /* ↓ plus petit */
+    border: 6px solid black; /* ↓ plus fin */
+    border-radius: 100px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(232, 232, 232);
+    text-align: center;
+
+    max-width: 100%; /* évite débordement */
+    box-sizing: border-box;
+
+    transform: rotate(-10deg); /* 👈 inclinaison */
+    transform-origin: center;
+
+    transition: 0.3s;
+}
+
+.btn-download:hover {
+    transform: rotate(-8deg) scale(1.05); /* petit effet sympa */
+}
+
+.title {
+    font-size: 32px; /* ↓ réduit */
+    font-family: "Riposte";
+    font-weight: bold;
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 15px;
+    font-family: "Riposte";
+    text-align: center;
+}
+
+
+
+.page {
+  break-before: page;
+}
+
+h1 {
+
+    font-size: 25pt;
+    line-height: 1.1;
+    margin: 0;
+    font-family: "Riposte";
+    text-align: center;
+
+}
+
+.suptitre {
+    font-size: 13pt;
+}
+
+/* numéro de note */
+
+.footnote {
+
+position: absolute;
+bottom: 0;
+
+font-family: "Riposte";
+font-weight: 400;
+
+font-size: 6pt;
+line-height: 6pt;
+
+}
+
+.note-definition {
+
+  font-family: "Riposte";
+  margin-top: 2mm;     /* espace entre les deux paragraphes */
+  text-indent: 4mm;    /* alinéa première ligne seulement */
+  margin-bottom: 0;
+
+}
+
+
+.textecourant {
+
+    font-family: "Riposte";
+    font-size: 8pt;
+    line-height: 9,6pt;
+    margin: 0;
+    letter-spacing: 0.1px;
+
+}
+
+
+.textecourantalinéa {
+
+    font-family: "Riposte";
+    font-size: 8pt;
+    letter-spacing: 0.1px;
+    line-height: 9,6pt;
+    margin: 0;
+    text-indent: 15mm;    /* alinéa première ligne seulement */
+
+
+}
+
+.suptextecourant {
+    font-family: "Riposte";
+    font-size: 4pt;
+}
+
+
+.supsup {
+    font-family: "Riposte";
+    font-size: 4pt;
+}
+
+
+
+.main1 {
+    font-family: "Director";
+    font-size: 16pt;
+    line-height: 8pt;
+    margin-left: 0px;
+}
+
+.main2 {
+    font-family: "Director";
+    font-size: 16pt;
+    line-height: 8pt;
+    margin-left: 4px;
+}
+
+.main3 {
+    font-family: "Director";
+    font-size: 16pt;
+    line-height: 8pt;
+    margin-left: 8px;
+}
+
+.main4 {
+    font-family: "Director";
+    font-size: 16pt;
+    line-height: 8pt;
+    margin-left: 12px;
+}
+
+.main5 {
+    font-family: "Director";
+    font-size: 16pt;
+    line-height: 8pt;
+    margin-left: 16px;
+}
+
+.main6 {
+    font-family: "Director";
+    font-size: 16pt;
+    line-height: 8pt;
+    margin-left: 20px;
+}
+
+.main7 {
+    font-family: "Director";
+    font-size: 16pt;
+    line-height: 8pt;
+    margin-left: 24px;
+}
+
+.main8 {
+    font-family: "Director";
+    font-size: 16pt;
+    line-height: 8pt;
+    margin-left: 28px;
+}
+
+.rizado {
+    margin-left: 25.5px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 42.5vh;
+}
+
+.logo {
+    width: 50mm;
+  
+}
+
+.petitlogo {
+    width: 20mm;
+  
+}

@@ -1,0 +1,265 @@
+/* POLICE */
+
+@font-face {
+    font-family: "Riposte";
+    src: url("fonts/Riposte-Regular.woff2") format("woff2");
+    font-family: "Director";
+    src: url("fonts/Director-Regular.woff2") format("woff2");
+}
+
+body {
+
+    margin: 0;
+    background: #ececec; /* fond gris pour visualisation */
+
+    font-family: "Riposte", sans-serif;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+/* LIVRE */
+
+
+.book {
+
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  column-gap: 0mm;
+  row-gap: 20mm;
+}
+
+
+/* page + fond perdu */
+
+.page {
+
+    position: relative;
+
+    width: 78mm;   /* page + fond perdu */
+    height: 109mm;
+
+    background: rgb(255, 255, 255);
+    
+
+}
+
+
+
+/* zone page réelle */
+
+.page-content {
+
+    position: absolute;
+
+    top: 2mm;
+    left: 2mm;
+
+    width: 74mm;
+    height: 105mm;
+
+    padding: 5mm;
+    box-sizing: border-box;
+
+
+}
+
+
+
+/* traits de coupe */
+
+.page::before {
+
+    content: "";
+
+    position: absolute;
+
+    top: -2mm;
+    left: -2mm;
+    right: -2mm;
+    bottom: -2mm;
+
+    background:
+    
+    /* haut gauche */
+    linear-gradient(black, black) left 0mm top 4mm / 2mm 0.2mm no-repeat,
+    linear-gradient(black, black) left 4mm top 0 / 0.2mm 2mm no-repeat,
+
+    /* haut droite */
+    linear-gradient(black, black) right 0 top 4mm / 2mm 0.2mm no-repeat,
+    linear-gradient(black, black) right 4mm top 0 / 0.2mm 2mm no-repeat,
+
+    /* bas gauche */
+    linear-gradient(black, black) left 0 bottom 4mm / 2mm 0.2mm no-repeat,
+    linear-gradient(black, black) left 4mm bottom 0 / 0.2mm 2mm no-repeat,
+
+    /* bas droite */
+    linear-gradient(black, black) right 0 bottom 4mm / 2mm 0.2mm no-repeat,
+    linear-gradient(black, black) right 4mm bottom 0 / 0.2mm 2mm no-repeat;
+
+}
+
+
+
+
+/* typographies */
+
+h1 {
+
+    font-size: 25pt;
+    line-height: 1.1;
+    margin: 0;
+    font-family: "Riposte";
+    text-align: center;
+
+}
+
+.suptitre {
+    font-size: 13pt;
+}
+
+/* numéro de note */
+
+.footnote {
+
+position: absolute;
+bottom: 5mm;
+left: 5mm;
+right: 5mm;
+
+font-family: "Riposte", sans-serif;
+font-weight: 400;
+
+font-size: 6pt;
+line-height: 7.2pt;
+
+padding-top: 2mm;
+
+}
+
+
+
+
+.blank {
+background: transparent;
+box-shadow: none;
+}
+
+
+
+
+.note-definition {
+
+margin-top: 2mm;     /* espace entre les deux paragraphes */
+text-indent: 4mm;    /* alinéa première ligne seulement */
+margin-bottom: 0;
+
+}
+
+
+.textecourant {
+
+    font-size: 8pt;
+    line-height: 9,6pt;
+    margin: 0;
+    letter-spacing: 0.1px;
+
+}
+
+
+.textecourantalinéa {
+
+    font-size: 8pt;
+    letter-spacing: 0.1px;
+    line-height: 9,6pt;
+    margin: 0;
+    text-indent: 15mm;    /* alinéa première ligne seulement */
+
+
+}
+
+.suptextecourant {
+    font-size: 4pt;
+}
+
+
+.supsup {
+    font-size: 4pt;
+}
+
+
+
+.main1 {
+    font-family: "Director";
+    font-size: 16pt;
+    line-height: 8pt;
+    margin-left: 0px;
+}
+
+.main2 {
+    font-family: "Director";
+    font-size: 16pt;
+    line-height: 8pt;
+    margin-left: 4px;
+}
+
+.main3 {
+    font-family: "Director";
+    font-size: 16pt;
+    line-height: 8pt;
+    margin-left: 8px;
+}
+
+.main4 {
+    font-family: "Director";
+    font-size: 16pt;
+    line-height: 8pt;
+    margin-left: 12px;
+}
+
+.main5 {
+    font-family: "Director";
+    font-size: 16pt;
+    line-height: 8pt;
+    margin-left: 16px;
+}
+
+.main6 {
+    font-family: "Director";
+    font-size: 16pt;
+    line-height: 8pt;
+    margin-left: 20px;
+}
+
+.main7 {
+    font-family: "Director";
+    font-size: 16pt;
+    line-height: 8pt;
+    margin-left: 24px;
+}
+
+.main8 {
+    font-family: "Director";
+    font-size: 16pt;
+    line-height: 8pt;
+    margin-left: 28px;
+}
+
+.rizado {
+    margin-left: 25.5px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 42.5vh;
+}
+
+.logo {
+    width: 64mm;
+    height: 64mm;
+}
